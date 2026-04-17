@@ -16,10 +16,12 @@ ul {
 }
 
 .list .list-item .list-tit {
-  padding: 0.5rem 0.5rem 0.5rem 1rem;
-  background-color: #d8d8d8;
+  padding: 0.5rem 0rem 0.5rem 2rem;
+  background-color: lightgoldenrodyellow;
   margin: 0;
   border-radius: 5px;
+  border: 5px solid darkcyan;
+  font-size: 1.6rem;
 }
 
 .list .list-item .list-content {
@@ -27,9 +29,29 @@ ul {
   height: 0rem;
   overflow: hidden;
   transition: height 0.5s ease 0s, padding 0.5s ease 0s;
-  margin: 0 0 10px 0;
+  margin: 0 0 30px 0;
 }
 
 .list .list-item .list-content .list-txt {
   padding: 1rem;
+}
+
+.list-tit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.list-content {
+  background-image: url(../images/body_kuchi.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+
+img {
+  height: 3rem;
+  width: 7rem;
 }
